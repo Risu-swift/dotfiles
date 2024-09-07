@@ -1,0 +1,37 @@
+fork = false
+frame = "full"
+idle = true
+maximized = true 
+neovim-bin = "/usr/bin/nvim" # in reality found dynamically on $PATH if unset
+no-multigrid = false
+srgb = false
+tabs = true
+theme = "auto"
+title-hidden = true
+vsync = true
+wsl = false
+
+[font]
+size = 12
+hinting = "full"
+edging = "antialias"
+
+[[font.normal]]
+family = "Victor Mono"
+style = "SemiBold"
+
+[[font.normal]]
+family = "MonaspiceXe Nerd Font"
+style = "Bold Italic"
+
+[[font.italic]]
+family = "Victor Mono"
+style = "Italic"
+
+[[font.bold]]
+family = "Victor Mono"
+style = "Bold"
+
+[[font.bold_italic]]
+family = "Victor Mono"
+style = "Bold Italic"
